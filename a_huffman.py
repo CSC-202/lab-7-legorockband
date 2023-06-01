@@ -44,6 +44,13 @@ def retrieve_codes(v: Node, path: str=''):
         retrieve_codes(v.left, path + '0') 
         retrieve_codes(v.right, path + '1') 
 
+def letter_count(str: str):
+    for i in str:
+        freq[i] = freq.get(i,0)+1
+    return freq
+
+letter_count(message)
+
 # STEP 1
 ## counting the frequencies - TODO
 for letter, count in freq.items():
@@ -54,14 +61,6 @@ for letter, count in freq.items():
 # STEP 2
 ## initialize the nodes - TODO
 nodes = list()
-nodes.append(Node('H', 1))
-nodes.append(Node('e', 3))
-nodes.append(Node('l', 2))
-nodes.append(Node('o', 1))
-nodes.append(Node(' ', 1))
-nodes.append(Node('t', 1))
-nodes.append(Node('h', 1))
-nodes.append(Node('r', 1))
 
 # STEP 3 - TODO
 ## combine each nodes until there's only one item in the nodes list
