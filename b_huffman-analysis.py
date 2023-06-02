@@ -124,7 +124,7 @@ MAX_N: int = int(128 * 3 / 2)
 ratios: list = list()
 for i in range(1, MAX_N):
     sub_message = GOUT[0:i]
-    _, a, ratio = huffman(sub_message)
+    a, _, ratio = huffman(sub_message)
     ratios.append(ratio)
 
 plt.plot(ratios, '-.', color = 'red', label = 'Gout (n=33)')
@@ -179,8 +179,8 @@ for i in range(1, MAX_N):
     ratios.append(ratio)
 
 plt.plot(ratios, '-.', color = 'blue', label = 'Undertale (n=23)')
-plt.ylabel('compression %')
-plt.xlabel('length of message')
+plt.gcf().supylabel('compresson %')
+plt.gcf().supxlabel('length of message')
 plt.legend()
 
 plt.savefig('./figs/lab7_renner.png')
