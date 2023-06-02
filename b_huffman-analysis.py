@@ -11,7 +11,7 @@ EVERLONG = "Hello I've waited here for you Everlong Tonight, I throw myself into
 # DATA - mantras
 HALF_LIFE = 'The right man in the wrong place can make all the difference in the world. So wake up, Mr. Freeman. Wake up and smell the ashes.'
 LIFE_OF_PI = 'I suppose in the end the whole of life becomes an act of letting go. But what always hurts the most is not taking a moment to say goodbye. I was never able to thank my father for all I learned from him, to tell him that without his lessons I would never have survived.'
-UNDERTALE = 'Knowing the mouse might one day leave its hole and get the cheese. Youre filled with determination'
+UNDERTALE = "Knowing the mouse might one day leave its hole and get the cheese. You're filled with determination"
 
 # the input, what we want to encode
 def huffman(message:str) -> float:
@@ -124,10 +124,10 @@ MAX_N: int = int(128 * 3 / 2)
 ratios: list = list()
 for i in range(1, MAX_N):
     sub_message = GOUT[0:i]
-    _, _, ratio = huffman(sub_message)
+    _, a, ratio = huffman(sub_message)
     ratios.append(ratio)
 
-plt.plot(ratios, '-.', color = 'red', label = 'Gout')
+plt.plot(ratios, '-.', color = 'red', label = 'Gout (n=33)')
 
 
 ## THROUGH THE FIRE
@@ -137,7 +137,7 @@ for i in range(1, MAX_N):
     _, _, ratio = huffman(sub_message)
     ratios.append(ratio)
 
-plt.plot(ratios, '-.', color = 'green', label = 'Through the Fire')
+plt.plot(ratios, '-.', color = 'green', label = 'Through the Fire (n=26)')
 
 
 ## EVERLONG
@@ -147,7 +147,7 @@ for i in range(1, MAX_N):
     _, _, ratio = huffman(sub_message)
     ratios.append(ratio)
 
-plt.plot(ratios, '-.', color = 'blue', label = 'Everlong')
+plt.plot(ratios, '-.', color = 'blue', label = 'Everlong (n=25)')
 plt.legend()
 
 # PLOT 2
@@ -160,7 +160,7 @@ for i in range(1, MAX_N):
     _, _, ratio = huffman(sub_message)
     ratios.append(ratio)
 
-plt.plot(ratios,'-.', color = 'red', label = 'Half Life')
+plt.plot(ratios,'-.', color = 'red', label = 'Half Life (n=22)')
 
 ## LIFE OF PI
 ratios: list = list()
@@ -169,7 +169,7 @@ for i in range(1, MAX_N):
     _, _, ratio = huffman(sub_message)
     ratios.append(ratio)
 
-plt.plot(ratios, '-.', color = 'green', label = 'Life of PI')
+plt.plot(ratios, '-.', color = 'green', label = 'Life of PI (n=25)')
 
 ## JEDI CODE
 ratios: list = list()
@@ -178,7 +178,7 @@ for i in range(1, MAX_N):
     _, _, ratio = huffman(sub_message)
     ratios.append(ratio)
 
-plt.plot(ratios, '-.', color = 'blue', label = 'Undertale')
+plt.plot(ratios, '-.', color = 'blue', label = 'Undertale (n=23)')
 plt.ylabel('compression %')
 plt.xlabel('length of message')
 plt.legend()
