@@ -4,6 +4,7 @@
 
 # the input, what we want to encode
 message: str = 'Hello there'
+message = message.upper()
 
 # the output, should be all 0's and 1s
 result: str = str()
@@ -44,6 +45,9 @@ def retrieve_codes(v: Node, path: str=''):
         retrieve_codes(v.left, path + '0') 
         retrieve_codes(v.right, path + '1') 
 
+# STEP 1
+## initialize the nodes - TODO
+nodes = list()
 def letter_count(str: str):
     for i in str:
         freq[i] = freq.get(i,0)+1
@@ -51,16 +55,14 @@ def letter_count(str: str):
 
 letter_count(message)
 
-# STEP 1
+# STEP 2
 ## counting the frequencies - TODO
 for letter, count in freq.items():
     single_node: Node = Node(letter, count)
     nodes.append(single_node)
     print(f'{letter} = {count}')
 
-# STEP 2
-## initialize the nodes - TODO
-nodes = list()
+
 
 # STEP 3 - TODO
 ## combine each nodes until there's only one item in the nodes list
@@ -85,9 +87,14 @@ huff_root = nodes[0]
 retrieve_codes(huff_root)
 result_list: list = []
 for letter in coding:
-    result: str = str(coding[letter]) # TODO (hint coding[letter] -> code)
-    result_list.append(result)
+    result: str = str(coding[letter])
+    if freq[letter] > 1:
+        for i in range(freq[letter]):
+            result_list.append(result)
+    else:
+        result_list.append(result)
     result_list = [''.join(result_list)]
+
 
 final_result = result_list[0]
 # STEP 5
