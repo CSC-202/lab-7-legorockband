@@ -5,14 +5,13 @@
 import matplotlib.pyplot as plt
 
 # DATA - lyrics
-POKEMON_LYRICS = 'I wanna be the very best. Like no one ever was. To catch them is my real test. To train them is my cause. I will travel across the land. Searching far and wide. Each Pokemon to understand. The power that\'s inside. (Pokemon, gotta catch \'em all.) Its you and me. I know it\'s my destiny. (Pokemon.) Oh, you\'re my best friend. In a world we must defend. (Pokemon, gotta catch \'em all.) A heart so true. Our courage will pull us through. You teach me and I\'ll teach you. Pokemon. (gotta catch \'em all.) Gotta catch \'em all. Yeah. Every challenge along the way. With courage I will face. I will battle every day. To claim my rightful place. Come with me, the time is right. There\'s no better team. Arm in arm we\'ll win the fight. It\'s always been our dream. (Pokemon, gotta catch \'em all.) Its you and me. I know it\'s my destiny (Pokemon.) Oh, you\'re my best friend. In a world we must defend. (Pokemon, gotta catch \'em all.) A heart so true. Our courage will pull us through. You teach me and I\'ll teach you. Pokemon (gotta catch \'em all.) Gotta catch \'em all. Gotta catch \'em all. Gotta catch \'em all. Gotta catch \'em all. Yeah! (Pokemon, gotta catch \'em all). Its you and me. I know it\'s my destiny. (Pokemon) Oh, you\'re my best friend. In a world we must defend. (Pokemon, gotta catch \'em all.) A heart so true. Our courage will pull us through. You teach me and I\'ll teach you Pokemon. (gotta catch \'em all). Gotta catch \'em all. (Pokemon)'
-JIGGLE_JIGGLE = 'You have to have something that sticks. You have to have something that\'s monumental. When you walk out on stage, that\'s been monumental. (Jiggle, jiggle) Can you remember any of the rap that you did? My money don\'t jiggle, jiggle, it folds. I like to see you wiggle, wiggle, for sure. It makes me want to dribble, dribble, you know. Riding in my Fiat, you really have to see it. Six feet two in a compact, no slack. But luckily the seats go back. I got a knack to relax in my mind. Sipping some red, red wine. I sip booze from chalices, holding my palaces. Crib is so crampy suckers suffer from paralysis. Rhymes, I write them in the castle. You try to diss me and pretty soon your ass. Will squat in a cell \'cause I can tell you it\'s illegal. Treason, that\'s the reason I\'m regal. You do the time for the crime of lèse-majesté. And **** the police \'cause they can\'t arrest me. (They can\'t arrest me, they can\'t arrest me). (I like to see you wiggle, it makes me dribble, fancy a fiddle?). My money don\'t jiggle, jiggle, it folds. I like to see you wiggle, wiggle, for sure. It makes me want to dribble, dribble, you know. Riding in my Fiat, you really have to see it. Six feet two in a compact, no slack. But luckily the seats go back. I got a knack to relax in my mind. Sipping some red, red wine. (I like to see you wiggle, it makes me dribble, fancy a fiddle?). (I like to see you wiggle, it makes me dribble, fancy a fiddle?). (I like to see you wiggle, it makes me dribble, fancy a fiddle?). (I like to see you wiggle, it makes me dribble, fancy a fiddle?)'
-ALPHABET = 'Now it\'s time for our wrap up. Let\'s give it everything we\'ve got. Ready, begin. Artificial amateurs aren\'t at all amazing. Analytically, I assault, animate things. Broken barriers bounded by the bomb beat. Buildings are broken, basically I\'m bombarding. Casually create catastrophes, casualties. Canceling cats got their canopies collapsing. Detonate a dime of dank daily doin\' dough. Demonstrations, Don Dada on the down low. Eatin\' other editors with each and every energetic. Epileptic episode, elevated etiquette. Furious fat fabulous fantastic. Flurries of funk felt feeding the fanatics. Imitators idolize, I intimidate. In a instant, I\'ll rise in a irate state. Juiced on my jams like jheri curls, jockin\' joints. Justly, it\'s just me, writin\' my journals. Kindly I\'m kindling all kinds of ink on. Karate kick type Brits in my kingdom. Let me live a long life, lyrically lessons is. Learned lame louses just lose to my livery. My mind makes marvelous moves, masses. Marvel and move, many mock what I\'ve mastered.  Niggas nap knowin\' I\'m nice naturally. Knack, never lack, make noise nationally.  Operation, opposition, off, not optional. Out of sight, out of mind, wide beaming opticals. Perfected poem, powerful punchlines. Pummeling petty powder puffs in my prime. Quite quaint quotes keep quiet it\'s Quannum Quarrelers ain\'t got a quarter of what we got, uh. Really raw raps, risin\' up rapidly. Riding the rushing radioactivity. Super scientifical sound search sought. Silencing super fire saps that are soft. Tales ten times talented, they\'re too tough. Take that, challengers, get a tune up. Universal, unique untouched. Unadulterated, the raw uncut. Verb vice Lord victorious valid. Violate vibes that are vain make \'em vanished. Why I\'m all well, would a wise wordsmith. Just weaving up words weeded up, on my work shift. Xerox, my X-ray-diation holes extra large. X-height letters and xylophone tones.'
-
+GOUT = "Shadow Wizard Money Gang We love casting spells Ah! This song is sponsored by the Shadow Government Nuke I- Nuke Radio I- I... Yeah, Yeah Warning! Nuking is now legal, worldwide I walk into Balenci, make em' wipe me down Oil filter on the Glock, you wont hear a sound I walk into Balenci, make em' wipe me down Oil filter on the Glock, you won't hear a sound I walk into Balenci, make em wipe me down Oil filter on the Glock, you won't hear a sound You think you heavyweight? We can go pound for pound I'm in Harrods out in London, spend pound aftеr pound If I need a drink, then my man C gone ask around Thesе are Margiela sneakers, I'm not wearing Shein You sought a player cuz the Devil's tryna bring me down Italian leather sneakers, I could have just bought a cow Holy Shit! You're wondering how? Balenciaga Defenders look like I got the gout I'm sipping cup after cup 'til my stomachs poking out I need my pockets, Im retarded, you can keep the clout Ahhhhhhh! If I spend my whole bankroll, Ill affect the DOW I'm in the cut with many drugs, tryna duck this out Ill repent for every sin before my luck runs out I got one of every pill inside a little pouch Hm! I- I... I- Yeah DJ Smokey... Nukes are now legal One- One... One One"
+THROUGH_THE_FIRE = "I look in your eyes and I can see We've loved so dangerously You're not trusting your heart to anyone You tell me you're gonna play it smart We're through before we start But I believe that we've only just begun When it's this good, there's no saying no I want you so, I'm ready to go Through the fire, to the limit, to the wall For a chance to be with you I'd gladly risk it all Through the fire Through whatever, come what may For a chance at loving you I'd take it all the way Right down to the wire Even through the fire I know you're afraid of what you feel You still need time to heal And I can help if you'll only let me try You touched me and something in me knew What I could have with you Now I'm not ready to kiss that dream goodbye When it's this sweet, there's no saying no I need you so, I'm ready to go Through the fire, to the limit, to the wall For a chance to be with you I'd gladly risk it all Through the fire Through whatever, come what may For a chance at loving you I'd take it all the way Right down to the wire Even through the fire Through the test of time Through the fire, to the limit, to the wall For the chance to be with you I'd gladly risk it all Through the fire Through whatever, come what may For a chance at loving you I'd take it all the way Right down to the wire Even through the fire To the wire, to the limit through the fire Through the fire, through whatever Through the fire, to the limit Through the fire, through whatever Through the fire, to the limit Through the fire, through whatever Through the fire, to the limit Through the fire, through whatever Through the fire, to the limit Through the fire, through whatever Through the fire, to the limit Through the fire, through whatever"
+EVERLONG = "Hello I've waited here for you Everlong Tonight, I throw myself into And out of the red Out of her head, she sang Come down and waste away with me Down with me Slow, how you wanted it to be I'm over my head Out of her head, she sang And I wonder When I sing along with you If everything could ever be this real forever If anything could ever be this good again The only thing I'll ever ask of you You've got to promise not to stop when I say when She sang Breathe out So I can breathe you in Hold you in And now I know you've always been Out of your head Out of my head, I sang And I wonder When I sing along with you If everything could ever feel this real forever If anything could ever be this good again The only thing I'll ever ask of you You've got to promise not to stop when I say when She sang And I wonder If everything could ever feel this real forever If anything could ever be this good again The only thing I'll ever ask of you You've got to promise not to stop when I say when"
 # DATA - mantras
-GREEN_LATTERN = 'In brightest day, in blackest night, No evil shall escape my sight. Let those who worship evil\'s might, Beware my power... Green Lantern\'s light!'
-JEDI_CODE = 'Emotion, yet peace. Ignorance, yet knowledge. Passion, yet serenity. Chaos, yet harmony. Death, yet the Force.'
-SITH_CODE = 'Peace is a lie. There is only Passion. Through Passion, I gain Strength. Through Strength, I gain Power. Through Power, I gain Victory. Through Victory my chains are Broken. The Force shall free me.'
+HALF_LIFE = 'The right man in the wrong place can make all the difference in the world. So wake up, Mr. Freeman. Wake up and smell the ashes.'
+LIFE_OF_PI = 'I suppose in the end the whole of life becomes an act of letting go. But what always hurts the most is not taking a moment to say goodbye. I was never able to thank my father for all I learned from him, to tell him that without his lessons I would never have survived.'
+UNDERTALE = 'Knowing the mouse might one day leave its hole and get the cheese. Youre filled with determination'
 
 # the input, what we want to encode
 def huffman(message:str) -> float:
@@ -35,76 +34,154 @@ def huffman(message:str) -> float:
 
     # STEP 0
     ## defining our data structures
-    ## defining operations
+    class Node: # NOT given to students
+        letter: str
+        weight : int
+        left: any
+        right: any
+        
+        def __init__(self, letter, weight, left: any = None, right: any = None):
+            self.letter = letter
+            self.weight = weight
+            self.left = left
+            self.right = right
 
+    ## defining operations
+    ### recursively traverses the huffman tree to record the codes
+    def retrieve_codes(v: Node, path: str=''):
+        if v.letter != None: # if 'TODO': # TODO
+            coding[v.letter] = path # TODO
+        else:
+            retrieve_codes(v.left, path + '0') 
+            retrieve_codes(v.right, path + '1') 
+    
     # STEP 1
-    ## counting the frequencies
+    ## initialize the nodes
+    nodes = list()
+    def letter_count(str: str):
+        for i in str:
+            freq[i] = freq.get(i,0)+1
+        return freq
+
+    letter_count(message)
 
     # STEP 2
-    ## initialize the nodes
+    ## counting the frequencies
+    for letter, count in freq.items():
+        single_node: Node = Node(letter, count)
+        nodes.append(single_node)
+        # print(f'{letter} = {count}')
 
     # STEP 3
     ## combine each nodes until there's only one item in the nodes list
+    while len(nodes) > 1:
+        ## sort based on weight
+        nodes.sort(key=lambda x: x.weight, reverse=True)
+
+        ## get the first min
+        min_a: Node = nodes.pop()
+
+        ## get the second min
+        min_b: Node = nodes.pop()
+
+        ## combine the two
+        combined: Node = Node(letter = None, weight = min_a.weight + min_b.weight, left = min_a, right = min_b)
+        ## put the combined nodes back in the list of nodes
+        nodes.append(combined)
 
     # STEP 4
     ## reconstruct the codes
+    huff_root = nodes[0]
+    retrieve_codes(huff_root)
+    result_list: list = []
+    for letter in coding:
+        result: str = str(coding[letter])
+        if freq[letter] > 1:
+            for i in range(freq[letter]):
+                result_list.append(result)
+        else:
+            result_list.append(result)
+        result_list = [''.join(result_list)]
+
+    final_result = result_list[0]
 
     # STEP 5
     ## analyize compression performance
     n_original_bits: int = len(message) * 8
-    n_encoded_bits: int = len(result)
+    n_encoded_bits: int = len(final_result)
     compression_ratio: float = 1 - (n_encoded_bits / n_original_bits)
 
-    return result, coding, compression_ratio
+    return final_result, coding, compression_ratio
 
 # LYRICS
 plt.subplot(2, 1, 1)
-plt.suptitle('Lab 7 - Stapleton Analyzing Huffman')
+plt.suptitle('Lab 7 - Renner Analyzing Huffman')
 
 MAX_N: int = int(128 * 3 / 2)
 
 # PLOT 1
-## POKEMON
+## GOUT
 ratios: list = list()
 for i in range(1, MAX_N):
-    sub_message = POKEMON_LYRICS[0:i]
+    sub_message = GOUT[0:i]
     _, _, ratio = huffman(sub_message)
     ratios.append(ratio)
 
-## JIGGLE JIGGLE
+plt.plot(ratios, '-.', color = 'red', label = 'Gout')
+
+
+## THROUGH THE FIRE
 ratios: list = list()
 for i in range(1, MAX_N):
-    sub_message = JIGGLE_JIGGLE[0:i]
+    sub_message = THROUGH_THE_FIRE[0:i]
     _, _, ratio = huffman(sub_message)
     ratios.append(ratio)
 
-## ALPHABET
+plt.plot(ratios, '-.', color = 'green', label = 'Through the Fire')
+
+
+## EVERLONG
 ratios: list = list()
 for i in range(1, MAX_N):
-    sub_message = ALPHABET[0:i]
+    sub_message = EVERLONG[0:i]
     _, _, ratio = huffman(sub_message)
     ratios.append(ratio)
+
+plt.plot(ratios, '-.', color = 'blue', label = 'Everlong')
+plt.legend()
 
 # PLOT 2
 plt.subplot(2, 1, 2)
 
-## SITH CODE
+## HALF LIFE
 ratios: list = list()
 for i in range(1, MAX_N):
-    sub_message = SITH_CODE[0:i]
+    sub_message = HALF_LIFE[0:i]
     _, _, ratio = huffman(sub_message)
     ratios.append(ratio)
 
-## GREEN LATERN'S OATH
+plt.plot(ratios,'-.', color = 'red', label = 'Half Life')
+
+## LIFE OF PI
 ratios: list = list()
 for i in range(1, MAX_N):
-    sub_message = GREEN_LATTERN[0:i]
+    sub_message = LIFE_OF_PI[0:i]
     _, _, ratio = huffman(sub_message)
     ratios.append(ratio)
+
+plt.plot(ratios, '-.', color = 'green', label = 'Life of PI')
 
 ## JEDI CODE
 ratios: list = list()
 for i in range(1, MAX_N):
-    sub_message = JEDI_CODE[0:i]
+    sub_message = UNDERTALE[0:i]
     _, _, ratio = huffman(sub_message)
     ratios.append(ratio)
+
+plt.plot(ratios, '-.', color = 'blue', label = 'Undertale')
+plt.ylabel('compression %')
+plt.xlabel('length of message')
+plt.legend()
+
+plt.savefig('./figs/lab7_renner.png')
+plt.show()
